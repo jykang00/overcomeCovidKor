@@ -4,14 +4,14 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of ddd is to ...
+The goal of overcomeCovidKor is to ...
 
 ## Installation
 
-You can install the released version of ddd from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of overcomeCovidKor from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("ddd")
+install.packages("overcomeCovidKor")
 ```
 
 ## Example
@@ -19,7 +19,7 @@ install.packages("ddd")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(ddd)
+library(overcomeCovidKor)
 ## basic example code
 ```
 
