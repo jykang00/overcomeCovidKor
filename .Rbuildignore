@@ -1,3 +1,5 @@
 ^overcomeCovidKor\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^data/20200630.csv
+^R/tstapi.R
