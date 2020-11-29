@@ -16,7 +16,7 @@
 #' @import ggplot2
 
 
-pltcovidSupp <- function(covidSupp, plotopt = 1) {
+pltcovidSupp <- function(covidSupp, plotopt ) {
   loan.krw1mil <- startup.year <- mean_loan.krw1mil  <- NULL
   industry <- month <- region <- NULL
 
