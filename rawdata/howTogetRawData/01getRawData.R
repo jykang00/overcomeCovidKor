@@ -69,7 +69,7 @@ i <- 0
 for (i in 1:3) {
 
   URL <- paste(URLpart[1], URLsubparts[i], sep = "")
-  fname <- paste('data/', dataname[i], '.csv', sep = "")
+  fname <- paste('rawdata/', dataname[i], '.csv', sep = "")
   getRawData(URL, fname, myKey)
 
 }

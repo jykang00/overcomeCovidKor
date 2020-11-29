@@ -3,7 +3,8 @@
 \docType{data}
 \name{covidGenAgeCaseInf}
 \alias{covidGenAgeCaseInf}
-\title{covidGenAgeCaseInf}
+\title{covidGenAgeCaseInf: COVID19 Infected Status(Sex/Age) of Korea
+Ministry of Health and Welfare, COVID19 Infected Status(Sex/Age) of Korea}
 \format{
 A data frame with 2575 rows and 10 variables:
 \describe{
@@ -23,9 +24,14 @@ A data frame with 2575 rows and 10 variables:
 covidGenAgeCaseInf
 }
 \description{
-DATASET_DESCRIPTION
+Corona19 City/Provocation Status data obtained from Korea Ministry of Health and Welfare
 }
 \details{
 DETAILS
+data from Korea Ministry of Health and Welfare
+Corona19 City/Provocation Status
+http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19GenAgeCaseInfJson
+You can find detailed description for this data from
+https://www.data.go.kr/data/15043377/openapi.do
 }
 \keyword{datasets}

@@ -3,7 +3,7 @@
 \docType{data}
 \name{covidInf}
 \alias{covidInf}
-\title{covidInf: xxx}
+\title{covidInf: COVID19 infection information from Korea Ministry of Health and Welfare}
 \format{
 A data frame with 270 rows and 15 variables:
 \describe{
@@ -21,7 +21,7 @@ A data frame with 270 rows and 15 variables:
 \item{\code{seq}}{integer Post number (infection status unique value)}
 \item{\code{stateDt}}{integer state date}
 \item{\code{stateTime}}{character state time}
-\item{\code{updateDt}}{character Modified Date and Time Minute}
+\item{\code{updateDt}}{character Update Date and Time Minute}
 }
 }
 \usage{
@@ -31,7 +31,10 @@ covidInf
 Covid19InfStateJson dataset from http://openapi.data.go.kr
 }
 \details{
-Covid19InfStateJson
-http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson
+Covid19InfStateJson was obtained from
+http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson.
+To obtain this dataset, API key is required.
+For detailed explanation of this data can be found at
+https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15043376
 }
 \keyword{datasets}

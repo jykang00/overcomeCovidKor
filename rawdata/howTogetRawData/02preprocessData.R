@@ -5,7 +5,7 @@
 # 1. data/20200630.csv
 library(dplyr)
 library(data.table)
-covidSupp.raw <- read.csv("data/covidSupp_20200630.csv", header=TRUE) #[, -1]
+covidSupp.raw <- read.csv("rawdata/covidSupp_20200630.csv", header=TRUE) #[, -1]
 covidSupp <- setnames(covidSupp.raw, old = c("일련번호","지역","업력","대출년도","대출월","대출금액.백만원.","업종"), new = c("no","region","startup.year","year","month","loan.krw1mil","industry"))
 
 # change region name

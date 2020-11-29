@@ -1,9 +1,9 @@
 ^overcomeCovidKor\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
-^data/covidGenAgeCaseInf.csv$
-^data/covidInf.csv$
-^data/covidSidoInf.csv$
-^data/covidSupp_20200630.csv$
-^howTogetRawData/01getRawData.R$
-^howTogetRawData/02preprocessData.R$
+^rawdata/covidGenAgeCaseInf.csv$
+^rawdata/covidInf.csv$
+^rawdata/covidSidoInf.csv$
+^rawdata/covidSupp_20200630.csv$
+^rawdata/howTogetRawData/01getRawData.R$
+^rawdata/howTogetRawData/02preprocessData.R$
