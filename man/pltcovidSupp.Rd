@@ -4,7 +4,7 @@
 \alias{pltcovidSupp}
 \title{pltcovidSupp}
 \usage{
-pltcovidSupp(covidSupp, plotopt = 1)
+pltcovidSupp(covidSupp, plotopt)
 }
 \arguments{
 \item{plotopt}{options for plot}
@@ -22,7 +22,7 @@ DETAILS
 }
 \examples{
  library(overcomeCovidKor)
- pltcovidSupp(covidSupp)
+ pltcovidSupp(covidSupp, 1)
 }
 \seealso{
 \code{\link[dplyr]{group_by}}

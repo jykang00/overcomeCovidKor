@@ -6,10 +6,10 @@
 #' @details DETAILS
 #' @examples
 #'  library(overcomeCovidKor)
-#'  pltcovidSupp(covidSupp)
+#'  pltcovidSupp(covidSupp, 1)
 #' @seealso
 #'  \code{\link[dplyr]{group_by}}
-#' @rdname pltCovidInf
+#' @rdname pltcovidSupp
 #' @export
 #' @importFrom dplyr group_by summarise
 #' @importFrom magrittr %>%
@@ -32,11 +32,11 @@ pltcovidSupp <- function(covidSupp, plotopt ) {
       y = mean_loan.krw1mil
     )) + geom_col()
   } else if (plotopt == 2) {
-    loan.industry <- ggplot(data = covidSupp, aes(x = stats::reorder(industry, -loan.krw1mil), y = loan.krw1mil)) + geom_boxplot() + labs(x="Industry", y="Loan (KRW 1mil)") +theme(axis.text.x=element_text(angle=45, hjust=1))
+    ggplot(data = covidSupp, aes(x = stats::reorder(industry, -loan.krw1mil), y = loan.krw1mil)) + geom_boxplot() + labs(x="Industry", y="Loan (KRW 1mil)") +theme(axis.text.x=element_text(angle=45, hjust=1))
   } else if (plotopt == 3) {
-    loan.region <- ggplot(data = covidSupp, aes(x = stats::reorder(region, -loan.krw1mil), y = loan.krw1mil)) + geom_boxplot() + labs(x="Region", y="Loan (KRW 1 mil)") +theme(axis.text.x=element_text(angle=45, hjust=1))
+    ggplot(data = covidSupp, aes(x = stats::reorder(region, -loan.krw1mil), y = loan.krw1mil)) + geom_boxplot() + labs(x="Region", y="Loan (KRW 1 mil)") +theme(axis.text.x=element_text(angle=45, hjust=1))
   } else if (plotopt == 4) {
-    loan.month <- ggplot(data = covidSupp, aes(x = stats::reorder(month, -loan.krw1mil), y = loan.krw1mil)) + geom_boxplot() + labs(x="Month", y="Loan (KRW 1 mil)") +theme(axis.text.x=element_text(angle=45, hjust=1))
+    ggplot(data = covidSupp, aes(x = stats::reorder(month, -loan.krw1mil), y = loan.krw1mil)) + geom_boxplot() + labs(x="Month", y="Loan (KRW 1 mil)") +theme(axis.text.x=element_text(angle=45, hjust=1))
   }
 }
 
