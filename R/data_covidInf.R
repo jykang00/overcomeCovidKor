@@ -1,4 +1,4 @@
-#' @title covidInf
+#' @title covidInf: xxx
 #' @description Covid19InfStateJson dataset from http://openapi.data.go.kr
 #' @format A data frame with 270 rows and 15 variables:
 #' \describe{

@@ -3,34 +3,35 @@
 \docType{data}
 \name{covidInf}
 \alias{covidInf}
-\title{covidInf}
+\title{covidInf: xxx}
 \format{
 A data frame with 270 rows and 15 variables:
 \describe{
 \item{\code{X}}{integer COLUMN_DESCRIPTION}
-\item{\code{accDefRate}}{double COLUMN_DESCRIPTION}
-\item{\code{accExamCnt}}{integer COLUMN_DESCRIPTION}
-\item{\code{accExamCompCnt}}{integer COLUMN_DESCRIPTION}
-\item{\code{careCnt}}{integer COLUMN_DESCRIPTION}
-\item{\code{clearCnt}}{integer COLUMN_DESCRIPTION}
-\item{\code{createDt}}{character COLUMN_DESCRIPTION}
-\item{\code{deathCnt}}{integer COLUMN_DESCRIPTION}
-\item{\code{decideCnt}}{integer COLUMN_DESCRIPTION}
-\item{\code{examCnt}}{integer COLUMN_DESCRIPTION}
-\item{\code{resutlNegCnt}}{integer COLUMN_DESCRIPTION}
-\item{\code{seq}}{integer COLUMN_DESCRIPTION}
-\item{\code{stateDt}}{integer COLUMN_DESCRIPTION}
-\item{\code{stateTime}}{character COLUMN_DESCRIPTION}
-\item{\code{updateDt}}{character COLUMN_DESCRIPTION}
+\item{\code{accDefRate}}{double Cumulative exchange rate}
+\item{\code{accExamCnt}}{integer Cumulative number of tests}
+\item{\code{accExamCompCnt}}{integer Number of cumulative tests completed}
+\item{\code{careCnt}}{integer Number of patients during treatment}
+\item{\code{clearCnt}}{integer Unisolated Number}
+\item{\code{createDt}}{character Date and time of registration}
+\item{\code{deathCnt}}{integer the number of deaths}
+\item{\code{decideCnt}}{integer number of confirmed infections}
+\item{\code{examCnt}}{integer Number of Inspections Progress}
+\item{\code{resutlNegCnt}}{integer Number of resulting negatives}
+\item{\code{seq}}{integer Post number (infection status unique value)}
+\item{\code{stateDt}}{integer state date}
+\item{\code{stateTime}}{character state time}
+\item{\code{updateDt}}{character Modified Date and Time Minute}
 }
 }
 \usage{
 covidInf
 }
 \description{
-DATASET_DESCRIPTION
+Covid19InfStateJson dataset from http://openapi.data.go.kr
 }
 \details{
-DETAILS
+Covid19InfStateJson
+http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson
 }
 \keyword{datasets}
