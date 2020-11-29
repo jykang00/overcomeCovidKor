@@ -1,8 +1,9 @@
 
-#' @title DATASET_TITLE
-#' @description DATASET_DESCRIPTION
-#' @format A data frame with 4273 rows and 6 variables:
+#' @title covidSupp
+#' @description DATA: Support for small business owners from the Korean government
+#' @format A data frame with 4273 rows and 7 variables:
 #' \describe{
+#'   \item{\code{no}}{integer COLUMN_DESCRIPTION}
 #'   \item{\code{region}}{integer COLUMN_DESCRIPTION}
 #'   \item{\code{startup.year}}{integer COLUMN_DESCRIPTION}
 #'   \item{\code{year}}{integer COLUMN_DESCRIPTION}

@@ -3,10 +3,11 @@
 \docType{data}
 \name{covidSupp}
 \alias{covidSupp}
-\title{DATASET_TITLE}
+\title{covidSupp}
 \format{
-A data frame with 4273 rows and 6 variables:
+A data frame with 4273 rows and 7 variables:
 \describe{
+\item{\code{no}}{integer COLUMN_DESCRIPTION}
 \item{\code{region}}{integer COLUMN_DESCRIPTION}
 \item{\code{startup.year}}{integer COLUMN_DESCRIPTION}
 \item{\code{year}}{integer COLUMN_DESCRIPTION}
@@ -19,7 +20,7 @@ A data frame with 4273 rows and 6 variables:
 covidSupp
 }
 \description{
-DATASET_DESCRIPTION
+DATA: Support for small business owners from the Korean government
 }
 \details{
 DETAILS
