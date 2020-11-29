@@ -5,5 +5,5 @@
 ^data/covidInf.csv$
 ^data/covidSidoInf.csv$
 ^data/covidSupp_20200630.csv$
-^R/01getRawData.R$
-^R/02preprocessData.R$
+^howTogetRawData/01getRawData.R$
+^howTogetRawData/02preprocessData.R$
