@@ -1,4 +1,4 @@
-#' @title DATASET_TITLE
+#' @title covidGenAgeCaseInf
 #' @description DATASET_DESCRIPTION
 #' @format A data frame with 2575 rows and 10 variables:
 #' \describe{
