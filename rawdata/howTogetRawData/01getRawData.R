@@ -17,8 +17,7 @@ Sys.getenv('DATAGOKR_TOKEN')
 # 일반 인증키를 저장합니다.
 myKey <- Sys.getenv('DATAGOKR_TOKEN')
 
-# will be delete
-myKey = '1kOQmLVq7NaAzCs6bKhWf%2FDY%2FMzN0TVZ6gzNhm7x3iem32r6%2FygMLBUNua%2FHfp39lNR3igaTebRxI9PPHQUTow%3D%3D'
+
 
 
 # 필요한 패키지를 불러옵니다.
